@@ -33,7 +33,9 @@ public class Demo {
 		    driver.findElement(By.id("add-to-cart-sauce-labs-fleece-jacket")).sendKeys("add card");
 		    driver.findElement(By.xpath("//a[@class='shopping_cart_link']")).click();
 		    driver.findElement(By.id("checkout")).click();
+
 //		      customer information 
+
 		    driver.findElement(By.id("first-name")).sendKeys("abc");
 		    driver.findElement(By.id("last-name")).sendKeys("xyz");
 		    driver.findElement(By.id("postal-code")).sendKeys("410206");
@@ -45,22 +47,8 @@ public class Demo {
 		    driver.findElement(By.name("back-to-products")).click();
 //		    driver.findElement(By.id("continue-shopping")).click();
 		    
-		    
-		    
-		  
 		   
-		//  driver.findElement(By.id("email")).sendKeys("atinpawar85@gmail.com");
-		 //  driver.findElement(By.id("pass")).sendKeys("Atin@123");
-		 //   driver.findElement(By.name("login")).click();
-		   
-			  
-		    
-			
-					
-					//driver.manage().window().maximize();
-		            //driver.close();
-		             
-		            // driver.navigate().to("https:/www.google.com/");
+	
 		           // driver.close();
 		       
 			}
@@ -70,7 +58,7 @@ public class Demo {
 		//setProperty is a static method in java
 
 
-		//System.setProperty("driver name ","D:\\brwsr\\chromedriver.exe");
+		
 		
 		
 	
